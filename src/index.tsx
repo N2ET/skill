@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import Graph from './mod-graph/index';
 import Layout from './mod-layout/Layout';
+import Hook from './mod-hook/index';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
 
     <Layout>
       <Graph />
+      <Hook />
     </Layout>
     
   </React.StrictMode>,
