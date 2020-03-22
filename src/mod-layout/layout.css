@@ -1,0 +1,20 @@
+.layout {
+    height: 100%;
+    width: 100%;
+}
+
+.layout_header {
+    outline: solid 1px red;
+}
+
+.layout_side {
+    height: 100%;
+    float: left;
+    outline: solid 1px orange;
+}
+
+.layout_main {
+    outline: solid 1px blue;
+    padding: 20px;
+    margin-left: 32px;
+}
